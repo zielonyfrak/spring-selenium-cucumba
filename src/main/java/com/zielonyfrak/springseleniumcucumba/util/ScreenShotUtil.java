@@ -16,6 +16,7 @@ import java.nio.file.Path;
 @Component
 public class ScreenShotUtil {
 
+    @Lazy
     @Autowired
     private TakesScreenshot driver;
 
